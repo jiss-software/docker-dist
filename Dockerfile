@@ -9,4 +9,4 @@ RUN apt-get -y upgrade
 RUN apt-get -y install git wget nano links wget unzip tree curl mc build-essential
 
 # Run
-CMD ["/bin/bash", "/start.sh"]
+CMD ["/bin/bash"]
